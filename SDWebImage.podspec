@@ -46,5 +46,5 @@ Pod::Spec.new do |s|
     mk.framework = 'MapKit'
     mk.dependency 'SDWebImage/Core'
   end
-  s.resource_bundles = {'SDWebImage' => ['WebImage/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'SDWebImage' => ['SDWebImage/PrivacyInfo.xcprivacy']}
 end
